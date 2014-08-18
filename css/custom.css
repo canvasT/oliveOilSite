@@ -207,6 +207,7 @@ padding: 30px 0 30px 25px;
     width: 940px;
     height: 424px;
     position: relative;
+    background-image: url(../images/product_order_bg.png);
 }
 
 .btn-order {
@@ -214,18 +215,26 @@ padding: 30px 0 30px 25px;
     height: 39px;
     width: 128px;
     background-image: url(../images/btn-order-bg.png);
-    top: 356px;
+    bottom: 28px;
+    left: 82px;
     display: inline-block;
 }
 
-.btn-order-left {
-    left: 76px;
+.order-section {
+    position: relative;
+    height: 424px;
 }
 
-.btn-order-middle {
-    left: 340px;
+.order-section img {
+    height: 240px;
 }
 
-.btn-order-right {
-    left: 642px;
+.order-section p {
+    font-size: 12px;
+    padding: 0 60px;
+    color: #000;
+}
+
+.order-section p.price {
+    font-size: 14px;
 }
