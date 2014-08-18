@@ -1,0 +1,231 @@
+/*
+    自定义样式
+    author: 冯涛涛
+    date: 2014-06-07
+ */
+.f-cb:after {clear:both;content:".";display:block;height:0;visibility:hidden;overflow:hidden;}
+.f-cb {zoom:1;}
+.header {
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+    width: 100%;
+    height: 120px;
+    background: url(../images/bg-header.png) top center repeat;
+}
+
+.nav{
+    background: url(../images/nav-item.png) top center repeat;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav a{
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    color: #ddd;
+    font-size: 1.0em;
+    padding: 0 25px;
+}
+
+.nav li.active, .nav li:hover {
+    background: url(../images/nav-item-selected.png) top center repeat;
+}
+
+.header-top {
+    height: 78px;
+    overflow: hidden;
+    background-color: #203e1c;
+    border-bottom: 2px solid #519f0d;
+}
+
+.top-opts {
+    float: right;
+    padding-top: 16px;
+    padding-right: 24px;
+}
+
+.top-opts .sep {
+    margin: 0 10px;
+    color: #dfdfdf;
+}
+
+.content {
+    padding-top: 120px;
+}
+
+.slider {
+    margin-top: 0;
+}
+
+.footer {
+    height: 40px;
+    padding-top: 10px;
+}
+
+.footer a {
+    margin-right: 13px;
+    color: #676b78;
+}
+
+.product-name {
+    height: 62px;
+    line-height: 62px;
+}
+
+.m-introduce {
+    width: 100%;
+    height: 600px;
+    /*padding-top: 97px;*/
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+}
+
+.m-introduce .left-img, .m-introduce .right-img {
+    float: left;
+    width: 609px;
+    height: 600px;
+    position: relative;
+    left: -12px;
+}
+
+.m-introduce .right-img {
+    float: right;
+    right: -136px;
+    left: auto;
+}
+
+.m-introduce .left-img img, .m-introduce .right-img img {
+    height: 600px;
+    width: 518px;
+    margin: 0 auto;
+}
+
+.left-decri, .right-decri {
+    width: 272px;
+    padding: 154px 33px 0 25px;
+    float: left;
+    padding-top: 156px;
+}
+
+.app-right-decri {
+    float: right;
+}
+
+p.top-intro {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.middle-img {
+    height: 513px;
+    width: 513px;
+    margin: 0 auto;
+}
+
+.middle-decri h3 {
+    text-align: center;
+}
+
+.small-product-pic {
+    width: 300px;
+    height: 192px;
+}
+
+.small-product-pic-middle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.certificate {
+    margin-top: 60px;
+}
+
+#aboutus p{
+    text-indent: 2em;
+    font-size: 1.2em;
+}
+
+.wrap-col .title{
+    padding-top: 10px;
+}
+
+.pad_bot1 {
+    padding-top: 10px;
+}
+
+.faq-content h1 {
+    float: none;
+    font-size: 18px;
+    line-height: 60px;
+    overflow: hidden;
+    height: 60px;
+    padding: 0 30px;
+}
+
+.faq-content {
+    background: #fff;
+    border-radius: 8px;
+    clear: both;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.faq-content .faq-box-inner {
+padding: 30px 0 30px 25px;
+}
+
+.faq-content .title {
+    height: 60px;
+    background: url(../images/step-order-box-title-bg.jpg) repeat-x;
+    line-height: 60px;
+    border-bottom: 1px solid #CFCFCF;
+    border-radius: 8px 8px 0 0;
+    box-shadow: rgba(0,0,0,.12) 0 1px 8px;
+    position: relative;
+}
+
+#aboutus .faq-content p {
+    text-indent: 0;
+    line-height: 26px;
+}
+
+.intro-section h2 {
+    font-size: 24px;
+}
+
+#img-product-order{
+    width: 940px;
+    height: 424px;
+    position: relative;
+}
+
+.btn-order {
+    position: absolute;
+    height: 39px;
+    width: 128px;
+    background-image: url(../images/btn-order-bg.png);
+    top: 356px;
+    display: inline-block;
+}
+
+.btn-order-left {
+    left: 76px;
+}
+
+.btn-order-middle {
+    left: 340px;
+}
+
+.btn-order-right {
+    left: 642px;
+}
